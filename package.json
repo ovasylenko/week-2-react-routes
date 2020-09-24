@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-skillcrucial",
+  "name": "sc3-week12-hw2",
   "version": "0.0.1",
-  "description": "Boilerplate SkillCrucial",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "docker-start-dev": "docker-compose -f \"docker\\DEV.docker-compose.yml\" up",
@@ -166,5 +166,6 @@
       "pre-commit": "cross-env npm run lint && npm test",
       "pre-push": "cross-env npm run lint && npm test"
     }
-  }
+  },
+  "keywords": []
 }

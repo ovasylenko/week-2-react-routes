@@ -26,8 +26,10 @@ const Header = () => {
       </div>
       {toggled && (
         <div id="menu" className="block">
-          <button
-            type="button"
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
           >
             <svg
@@ -38,7 +40,7 @@ const Header = () => {
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
-          </button>
+          </a>
         </div>
       )}
     </nav>
