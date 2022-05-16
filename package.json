@@ -92,7 +92,7 @@
     "history": "^4.10.1",
     "next": "^9.3.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "postcss": "^8.2.3",
+    "postcss": "^8.2.13",
     "postcss-import": "^14.0.0",
     "postcss-loader": "^4.1.0",
     "postcss-preset-env": "^6.7.0",
